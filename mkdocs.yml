@@ -348,11 +348,7 @@ plugins:
 
 nav:
   - 首页: 'index.md'
-  - 数据结构:
-      - 栈与队列: '数据结构/栈与队列.md'
-      - 二叉树: '数据结构/二叉树.md'
-  - 操作系统:
-      - 进程管理: '操作系统/进程管理.md'
-  - 数据库原理:
-      - SQL基础: '数据库原理/SQL基础.md'
-  
+  - 数据结构基础:
+      - Project 1: '数据结构基础/pr1/Project1 Performance Measurement of Search Algorithms.md'
+      - Project 2: '数据结构基础/Project2 A+B with Binary Search Trees.md'
+      - Project 3: '数据结构基础/Project3 Dijkstra Sequence.md'
