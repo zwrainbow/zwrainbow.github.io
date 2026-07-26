@@ -269,6 +269,8 @@ extra: # 额外设定
       在您的同意下，您将帮助我们改进我们的文档。<br/>
       （您稍后仍可以在网页左下角重新修改 cookies 设置）
 extra_javascript:
+  - https://unpkg.com/live2d-widget@3.x/lib/L2Dwidget.min.js
+  - js/live2d-init.js
   - js/click-colorful.js # 鼠标点击效果
   - js/shortcuts.js # 绑定左右键换页的键盘快捷键
   - js/katex.js # 数学表达式
