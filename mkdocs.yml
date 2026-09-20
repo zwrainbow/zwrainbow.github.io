@@ -59,7 +59,8 @@ markdown_extensions:
   # - pymdownx.progressbar # 进度条（暂不支持）
   # - pymdownx.striphtml # 去除 HTML 中不需要的注释和 / 或标记属性，与插件 minify 有交叉但没有完全覆盖【别启用，大坑】
 
-  - pymdownx.extra # 见上面 Python Markdown 配置说明
+  # 已删除 pymdownx.extra（与显式配置重复，可能导致冲突）
+  # 已删除 pymdownx.escapeall（导致 LaTeX 反斜杠被错误转义）
 
   - pymdownx.blocks.definition # 支持更高级的定义块语法（可能与 def_list 混淆）
   - pymdownx.blocks.details # 支持更高级的提示框布局（可能与 pymdownx.details 混淆）
@@ -110,10 +111,6 @@ markdown_extensions:
   - pymdownx.emoji: # Emoji 表情
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-  - pymdownx.escapeall: # 转义一切
-      hardbreak: true # 转义换行符会变成间断 <br>
-      nbsp: true # 空格转义会变成无间隔空格 &nbsp;
 
   - pymdownx.highlight: # 代码高亮
       use_pygments: true # 使用 Pygments 而不是 JavaScript 来渲染高亮
@@ -354,3 +351,9 @@ nav:
       - Project 1: '数据结构基础/pr1/Project1 Performance Measurement of Search Algorithms.md'
       - Project 2: '数据结构基础/Project2 A+B with Binary Search Trees.md'
       - Project 3: '数据结构基础/Project3 Dijkstra Sequence.md'
+  - 概率论与数理统计:
+      - 第一章: '概率论与数理统计/第一章.md'
+  - 高级数据结构:
+      - Lecture 1: '高级数据结构/Lecture 1.md'
+  - 普通物理学II(H):
+      - Lecture 1: '普通物理学II(H)/Lecture 1.md'
