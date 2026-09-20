@@ -1,4 +1,21 @@
-# AVL Trees
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>居中大标题</title>
+    <style>
+        .centered-title {
+            text-align: center;      /* 水平居中 */
+            font-size: 48px;         /* 字体调大 */
+            font-weight: bold;       /* 加粗 */
+            margin-top: 20px;        /* 可选的顶部间距 */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="centered-title">AVL Tree</h1>
+</body>
+</html>
 
 ​	我们知道，对于一棵二叉搜索树，其对点的操作代价为 $O(log⁡n)$。然而在最坏情况下，它会退化成$O(n)$，例如这是一棵只有左孩子树的链型二叉树，那么操作这里唯一的叶孩子节点就是$O(n)$。
 
@@ -196,7 +213,24 @@ $$
 
 > 对于删除而言，如果进一步将平衡条件放宽，例如改为比值$\frac{1}{k} \le \left|\frac{h_L}{h_R}\right| \le k$ ,就可以实现第二步也在常数个平衡调整次数下完成
 
-# 红黑树（RBT）
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>居中大标题</title>
+    <style>
+        .centered-title {
+            text-align: center;      /* 水平居中 */
+            font-size: 48px;         /* 字体调大 */
+            font-weight: bold;       /* 加粗 */
+            margin-top: 20px;        /* 可选的顶部间距 */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="centered-title">红黑树</h1>
+</body>
+</html>
 
 ## 红黑树的概念
 
