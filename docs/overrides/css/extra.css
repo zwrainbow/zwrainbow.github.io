@@ -170,3 +170,10 @@ span.arithmatex {
 .doc-symbol.doc-symbol-nav.doc-symbol-parameter::after {
     content: "pkg";
 }
+
+/* 限制统计栏中 SVG 图标的大小 */
+.twemoji svg {
+    height: 1em;
+    width: 1em;
+    vertical-align: -0.125em;
+}
